@@ -10,6 +10,9 @@ const StatsMock = () => ({
     },
   },
   toString: sinon.stub().returns('testStats'),
+  hasErrors() {
+    return Boolean(this.compilation.errors.length);
+  },
 });
 
 
