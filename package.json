@@ -58,7 +58,7 @@
     "semver": "^7.5.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.10",
+    "@babel/core": "^7.22.11",
     "@babel/eslint-parser": "^7.22.10",
     "chai": "^4.3.7",
     "chai-as-promised": "^7.1.1",
